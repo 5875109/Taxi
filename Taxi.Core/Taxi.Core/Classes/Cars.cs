@@ -22,8 +22,6 @@ namespace Taxi.Core.Classes
             _Car.Add(Car);
          }
 
-
-
         }
 
     }
