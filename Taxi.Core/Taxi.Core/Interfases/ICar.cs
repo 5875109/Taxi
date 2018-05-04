@@ -3,11 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taxi.Core.Interface;
 
-namespace taxi.Core.Interface
+
+
+namespace Taxi.Core.Interfases
 {
-    public interface ICar: IConsumptionAuto, IPriceAuto, ISpeeddAuto
+    public interface Interfases
     {
-       string NameAuto {get; set;}
+    }
+    public interface ICar : IConsumptionAuto, IPriceAuto, ISpeeddAuto
+    {
+        private Guid Id { }
+        string CarModel { get; }
     }
 }

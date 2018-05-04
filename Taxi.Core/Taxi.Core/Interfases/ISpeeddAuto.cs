@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace taxi.Core.Interface
+namespace Taxi.Core.Interface
 {
-    interface ISpeeddAuto
+    public interface ISpeeddAuto
     {
         byte Speed { get; set;}
     }

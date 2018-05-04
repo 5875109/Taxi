@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace taxi.Core.Interface
+namespace Taxi.Core.Interface
 {
-    interface IPriceAuto
+    public interface IPriceAuto
     {
-        float SpeedAuto { get; set;}
+        float PriceAuto { get; set;}
     }
 }

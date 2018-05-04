@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace taxi.Core.Interface
+namespace Taxi.Core.Interface
 {
     public interface IConsumptionAuto
     {
