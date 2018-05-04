@@ -14,7 +14,8 @@ namespace Taxi.Core.Interfases
     }
     public interface ICar : IConsumptionAuto, IPriceAuto, ISpeeddAuto
     {
-        private Guid Id { }
+        private Guid Id { get; }
         string CarModel { get; }
+        void add();
     }
 }

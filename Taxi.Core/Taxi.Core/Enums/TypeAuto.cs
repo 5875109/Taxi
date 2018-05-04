@@ -10,7 +10,7 @@ namespace Taxi.Core.Enums
     {
             saloon =0,
             minivan=1,
-            buss = 2,
+            buss = 2
 
     }
 }
