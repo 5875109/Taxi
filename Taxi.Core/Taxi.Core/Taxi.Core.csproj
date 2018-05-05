@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Cars.cs" />
+    <Compile Include="Classes\CarsBilder.cs" />
     <Compile Include="Enums\TypeAuto.cs" />
     <Compile Include="Interfases\ICar.cs" />
     <Compile Include="Interfases\IConsumptionAuto.cs" />

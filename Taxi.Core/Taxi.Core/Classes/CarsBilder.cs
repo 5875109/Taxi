@@ -9,11 +9,20 @@ namespace Taxi.Core.Classes
 {
     class CarsBilder
     {
-        private Cars _cars;
+        private ICollection<ICar> _cars;
 
         public CarsBilder(ICollection<Interfases.ICar> cars)
         {
-            _cars = (ICollection<Interfases.ICar>)cars;
+           _cars = (ICollection<Interfases.ICar>)cars;
         }
+
+        public void Add(ICar Car)
+        {
+            _cars.Add(Car);
+        }
+
+
+
+
     }
 }

@@ -8,22 +8,67 @@ using Taxi.Core.Interfases;
 
 namespace Taxi.Core.Classes
 {
-    class Cars
+    class Cars : Interfases.ICar
     {
-        private ICollection<Interfases.ICar> _Car;
+        private Interfases.ICar _Car;
 
-        public Cars(ICollection<ICar> Car)
+        public Cars(ICar Car)
         {
-            _Car=Car;
+            _Car = Car;
         }
 
-        public void Add(Interfases.ICar Car)
+        Guid ICar.Id
         {
-            _Car.Add(Car);
-         }
-
+            get { throw new NotImplementedException(); }
         }
 
+        string ICar.CarModel
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        void ICar.add()
+        {
+            throw new NotImplementedException();
+        }
+
+        float Interface.IConsumptionAuto.ConsumptionAuto
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        float Interface.IPriceAuto.PriceAuto
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        byte Interface.ISpeeddAuto.Speed
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
-       
+
+}
+
 
