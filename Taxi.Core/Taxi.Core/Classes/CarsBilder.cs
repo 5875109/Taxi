@@ -21,7 +21,10 @@ namespace Taxi.Core.Classes
             _cars.Add(Car);
         }
 
-
+        public ICollection<ICar> GetCarList()
+        {
+            return _cars; 
+        }
 
 
     }
