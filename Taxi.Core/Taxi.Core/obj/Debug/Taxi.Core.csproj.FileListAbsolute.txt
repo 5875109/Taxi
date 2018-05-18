@@ -1,0 +1,5 @@
+D:\Taxi\Taxi.Core\Taxi.Core\obj\Debug\Taxi.Core.csprojResolveAssemblyReference.cache
+D:\Taxi\Taxi.Core\Taxi.Core\bin\Debug\Taxi.Core.dll
+D:\Taxi\Taxi.Core\Taxi.Core\bin\Debug\Taxi.Core.pdb
+D:\Taxi\Taxi.Core\Taxi.Core\obj\Debug\Taxi.Core.dll
+D:\Taxi\Taxi.Core\Taxi.Core\obj\Debug\Taxi.Core.pdb
