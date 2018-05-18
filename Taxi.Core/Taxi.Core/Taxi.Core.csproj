@@ -39,7 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Cars.cs" />
+    <Compile Include="Classes\Buss.cs" />
+    <Compile Include="Classes\!Cars.cs" />
+    <Compile Include="Classes\Minivan.cs" />
+    <Compile Include="Classes\Saloon.cs" />
+    <Compile Include="Classes\TaxisBilder.cs" />
     <Compile Include="Enums\TypeAuto.cs" />
     <Compile Include="Interfases\ICar.cs" />
     <Compile Include="Interfases\IConsumptionAuto.cs" />

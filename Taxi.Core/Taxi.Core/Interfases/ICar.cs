@@ -16,6 +16,6 @@ namespace Taxi.Core.Interfases
     {
         
         string CarModel { get; }
-        void add();
+       
     }
 }
