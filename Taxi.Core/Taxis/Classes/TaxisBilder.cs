@@ -3,7 +3,7 @@ using Taxi.Core.Interfases;
 
 namespace Taxi.Core.Classes
 {
-    public class TaxisBilder
+   public class TaxisBilder
     {
         private ICollection<ICar> _cars;
 
@@ -14,17 +14,13 @@ namespace Taxi.Core.Classes
 
         public ICollection<ICar> SorCarsByConsumptionAuto()
         {
-
-        return _cars;
+   
+            //return ICollection<ICar>;
         }
 
         public ICollection<ICar> RangeSpeed(byte from, byte to)
         {
-            return _cars;
-        }
-        public void TaxisBilder(ICollection<ICar> taxis)
-        {
-            _cars = taxis;
+
         }
     }
 }

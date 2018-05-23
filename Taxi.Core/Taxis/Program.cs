@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Taxi.Core;
+using Taxi.Core.Classes;
 
 namespace Taxis
 {
@@ -11,7 +11,7 @@ namespace Taxis
     {
         static void Main(string[] args)
         {
-            TaxiBilder ts = new TaxiBilder();
+            Taxi.Core.Classes.TaxisBilder ts = new Taxi.Core.Classes.TaxisBilder();
 
         }
     }

@@ -9,20 +9,42 @@ namespace Taxi.Core.Classes
 {
    public class Minivan : ICar
     {
+        private string _carModel;
+        private float _consumptionAuto;
+        private float _priceAuto;
+        private byte _speed;
+
+
+        public void Minivan(string carModel, float consumptionAuto, float prisceAuto, byte speed)
+        {
+            _carModel = carModel;
+            _consumptionAuto = consumptionAuto;
+            _priceAuto = prisceAuto;
+            _speed = speed;
+
+        }
+
         public string CarModel
         {
-            get { throw new NotImplementedException(); }
+            get
+            {
+                return _carModel;
+            }
+            set
+            {
+                _carModel = value;
+            }
         }
 
         public float ConsumptionAuto
         {
             get
             {
-                throw new NotImplementedException();
+                return _consumptionAuto;
             }
             set
             {
-                throw new NotImplementedException();
+                _consumptionAuto = value;
             }
         }
 
@@ -30,11 +52,11 @@ namespace Taxi.Core.Classes
         {
             get
             {
-                throw new NotImplementedException();
+                return _priceAuto;
             }
             set
             {
-                throw new NotImplementedException();
+                _priceAuto = value;
             }
         }
 
@@ -42,11 +64,11 @@ namespace Taxi.Core.Classes
         {
             get
             {
-                throw new NotImplementedException();
+                return _speed;
             }
             set
             {
-                throw new NotImplementedException();
+                _speed = value;
             }
         }
     }
