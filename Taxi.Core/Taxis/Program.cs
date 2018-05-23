@@ -11,7 +11,8 @@ namespace Taxis
     {
         static void Main(string[] args)
         {
-            Taxis.Core 
+            Buss b = new Buss();
+
         }
     }
 }
