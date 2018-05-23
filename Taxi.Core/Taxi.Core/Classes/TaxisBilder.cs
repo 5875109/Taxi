@@ -3,7 +3,7 @@ using Taxi.Core.Interfases;
 
 namespace Taxi.Core.Classes
 {
-    class TaxisBilder
+   public class TaxisBilder
     {
         private ICollection<ICar> _cars;
 

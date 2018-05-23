@@ -7,7 +7,7 @@ using Taxi.Core.Interfases;
 
 namespace Taxi.Core.Classes
 {
-    class Minivan : ICar
+   public class Minivan : ICar
     {
         public string CarModel
         {

@@ -7,7 +7,7 @@ using Taxi.Core.Interfases;
 
 namespace Taxi.Core.Classes
 {
-    class Buss : ICar
+    public class Buss : ICar
     {
 
         public string CarModel

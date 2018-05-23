@@ -11,7 +11,7 @@ namespace Taxis
     {
         static void Main(string[] args)
         {
-            Buss b = new Buss();
+            TaxiBilder ts = new TaxiBilder();
 
         }
     }
